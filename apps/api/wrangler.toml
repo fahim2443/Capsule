@@ -1,0 +1,19 @@
+name = "capsule-api"
+main = "src/index.ts"
+compatibility_date = "2024-05-12"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "capsule"
+database_id = "f7cdc8ac-7117-4ae1-871f-ae048024b820"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "capsule-materials"
+
+[vars]
+FIREBASE_PROJECT_ID = "capsule-96e48"
+FRONTEND_URL = "http://localhost:3000"
+
+# Secrets (set via wrangler secret put):
+# FIREBASE_API_KEY
