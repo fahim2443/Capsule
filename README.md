@@ -7,7 +7,7 @@
 
 ## Screenshots
 
-*(Placeholder for screenshots)*
+![alt text](<Screenshot 2026-05-30 at 1.45.15 AM-1.png>)
 
 Academic material sharing platform. MVP built for hackathon.
 
