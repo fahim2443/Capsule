@@ -1,0 +1,3190 @@
+{
+  "timestamp": 1780118800217,
+  "outputDir": ".vercel/output/static/_worker.js",
+  "versions": {
+    "@cloudflare/next-on-pages": "1.13.16"
+  },
+  "buildFiles": {
+    "functions": {
+      "invalid": [],
+      "middleware": [],
+      "edge": [
+        {
+          "relativePath": "/u/[slug]/[majorId]/[semId]/[subjectId].func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]/[semId]/[subjectId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId]/[semId]/[subjectId]",
+            "overrides": [
+              "/u/[slug]/[majorId]/[semId]/[subjectId].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/u/[slug]/[majorId]/[semId]/[subjectId].func.js",
+          "outputByteSize": 35644
+        },
+        {
+          "relativePath": "/u/[slug]/[majorId]/[semId].func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]/[semId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId]/[semId]",
+            "overrides": [
+              "/u/[slug]/[majorId]/[semId].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/u/[slug]/[majorId]/[semId].func.js",
+          "outputByteSize": 29702
+        },
+        {
+          "relativePath": "/u/[slug]/[majorId].func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId]",
+            "overrides": [
+              "/u/[slug]/[majorId].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/u/[slug]/[majorId].func.js",
+          "outputByteSize": 29432
+        },
+        {
+          "relativePath": "/u/[slug].func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]",
+            "overrides": [
+              "/u/[slug].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/u/[slug].func.js",
+          "outputByteSize": 28939
+        }
+      ],
+      "prerendered": [
+        {
+          "relativePath": "/auth/login.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/auth/login.html",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/auth/layout,_N_T_/auth/login/layout,_N_T_/auth/login/page,_N_T_/auth/login",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+            },
+            "overrides": [
+              "/auth/login"
+            ]
+          }
+        },
+        {
+          "relativePath": "/auth/login.rsc.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/auth/login.rsc",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/auth/layout,_N_T_/auth/login/layout,_N_T_/auth/login/page,_N_T_/auth/login",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+              "content-type": "text/x-component"
+            },
+            "overrides": []
+          }
+        },
+        {
+          "relativePath": "/auth/register.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/auth/register.html",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/auth/layout,_N_T_/auth/register/layout,_N_T_/auth/register/page,_N_T_/auth/register",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+            },
+            "overrides": [
+              "/auth/register"
+            ]
+          }
+        },
+        {
+          "relativePath": "/auth/register.rsc.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/auth/register.rsc",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/auth/layout,_N_T_/auth/register/layout,_N_T_/auth/register/page,_N_T_/auth/register",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+              "content-type": "text/x-component"
+            },
+            "overrides": []
+          }
+        },
+        {
+          "relativePath": "/index.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/index.html",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/page,_N_T_/",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+            },
+            "overrides": [
+              "/index",
+              "/"
+            ]
+          },
+          "sourcePath": "/"
+        },
+        {
+          "relativePath": "/index.rsc.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/auth/register/page_client-reference-manifest.js": ".next/server/app/auth/register/page_client-reference-manifest.js",
+              ".next/server/app/auth/login/page_client-reference-manifest.js": ".next/server/app/auth/login/page_client-reference-manifest.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/auth/register/page.js": ".next/server/app/auth/register/page.js",
+              ".next/server/app/auth/login/page.js": ".next/server/app/auth/login/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js"
+            }
+          },
+          "route": {
+            "path": "/index.rsc",
+            "headers": {
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/page,_N_T_/",
+              "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+              "content-type": "text/x-component"
+            },
+            "overrides": []
+          }
+        }
+      ],
+      "ignored": [
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/u/[slug]/[majorId]/[semId]/[subjectId].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]/[semId]/[subjectId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId]/[semId]/[subjectId].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/u/[slug]/[majorId]/[semId].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]/[semId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId]/[semId].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/u/[slug]/[majorId].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]/[majorId]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug]/[majorId].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/u/[slug].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "u/[slug]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "R_wFs2h54Gb3FQCgt6u5y",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "opq3gBtFD3aQJG0VJnCBSY99BwgB7op+dM9h49dwxa0=",
+              "__NEXT_PREVIEW_MODE_ID": "884c478a7f1b01a3b4c0da44dcedd752",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9360918b15febd15ef6f0ed496971f22dcbe0151b418e0917a3b0ffcbdfc6b6b",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "abb139c8399e0cd3043886b03dbbe3adbb33d5f412e35699910c56d70cee9747"
+            }
+          },
+          "route": {
+            "path": "/u/[slug].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "invalid unnecessary not-found function",
+          "relativePath": "/_not-found.func",
+          "config": {
+            "operationType": "Page",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          }
+        },
+        {
+          "reason": "invalid unnecessary not-found function",
+          "relativePath": "/_not-found.rsc.func",
+          "config": {
+            "operationType": "Page",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.2.15"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "../../node_modules/styled-jsx/index.js": "../../node_modules/styled-jsx/index.js",
+              "../../node_modules/styled-jsx/style.js": "../../node_modules/styled-jsx/style.js",
+              "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "../../node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/entrypoints.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js": "../../node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "../../node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/chunks/756.js": ".next/server/chunks/756.js",
+              ".next/server/chunks/353.js": ".next/server/chunks/353.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          }
+        }
+      ]
+    },
+    "staticAssets": [
+      "/404.html",
+      "/404.rsc.json",
+      "/500.html",
+      "/_app.rsc.json",
+      "/_document.rsc.json",
+      "/_error.rsc.json",
+      "/_next/static/R_wFs2h54Gb3FQCgt6u5y/_buildManifest.js",
+      "/_next/static/R_wFs2h54Gb3FQCgt6u5y/_ssgManifest.js",
+      "/_next/static/chunks/1dd3208c-461939fe2dbde2de.js",
+      "/_next/static/chunks/277ccffe-6eefb0b7380f5987.js",
+      "/_next/static/chunks/456-aa4af79be799c88d.js",
+      "/_next/static/chunks/86-a5c3a0dfb979b05d.js",
+      "/_next/static/chunks/app/_not-found/page-281f2aff198120cd.js",
+      "/_next/static/chunks/app/auth/login/page-7d1461bb2f57e526.js",
+      "/_next/static/chunks/app/auth/register/page-4fcfef59ed6d81e5.js",
+      "/_next/static/chunks/app/layout-4d02daa37887d8b2.js",
+      "/_next/static/chunks/app/page-d3259bee66630ba0.js",
+      "/_next/static/chunks/app/u/[slug]/[majorId]/[semId]/[subjectId]/page-0136497e3caa82fc.js",
+      "/_next/static/chunks/app/u/[slug]/[majorId]/[semId]/page-5262fa7a96a9de47.js",
+      "/_next/static/chunks/app/u/[slug]/[majorId]/page-1e674c2ea487c500.js",
+      "/_next/static/chunks/app/u/[slug]/page-b667dd14fa269eef.js",
+      "/_next/static/chunks/framework-3664cab31236a9fa.js",
+      "/_next/static/chunks/main-792b1a6a23fb8597.js",
+      "/_next/static/chunks/main-app-fee83f9e7ff43b9d.js",
+      "/_next/static/chunks/pages/_app-10a93ab5b7c32eb3.js",
+      "/_next/static/chunks/pages/_error-2d792b2a41857be4.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c105cf7135d99ba2.js",
+      "/_next/static/css/07f3081409c8098a.css",
+      "/_next/static/not-found.txt"
+    ],
+    "identifiers": {
+      "wasm": {},
+      "manifest": {
+        "__RSC_SERVER_MANIFEST": {
+          "consumers": 4,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 178,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "__REACT_LOADABLE_MANIFEST": {
+          "consumers": 4,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 89,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "__NEXT_FONT_MANIFEST": {
+          "consumers": 4,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 154,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        }
+      },
+      "webpack": {
+        "95": {
+          "consumers": 1,
+          "groupedPath": "e3ac9727560865260f87e00f654640a7",
+          "inlined": true,
+          "byteLength": 2692,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "204": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 413,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "270": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4225,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "316": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 211,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "329": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4222,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "357": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 677,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "392": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 158,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "426": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 318,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "461": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 240,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "480": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 649,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "505": {
+          "consumers": 1,
+          "groupedPath": "6931f03a4a071507bd045099c26f1d7b",
+          "inlined": true,
+          "byteLength": 8340,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "550": {
+          "consumers": 1,
+          "groupedPath": "39d0ce4c562157c0cc5fbbea6cc060dd",
+          "inlined": true,
+          "byteLength": 6085,
+          "consumersList": [
+            "/u/[slug]/[majorId].func/index.js"
+          ]
+        },
+        "577": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1709,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "617": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 910,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "729": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 80,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "742": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 313,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "754": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 132,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "986": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 809,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1073": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1781,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1118": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 91,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1150": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 208,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1194": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1748,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1359": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 322,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1368": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 12116,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1452": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 186,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1555": {
+          "consumers": 3,
+          "newDest": "__next-on-pages-dist__/webpack/1555.js",
+          "byteLength": 183,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "1636": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 590,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1734": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 8590,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1869": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 440,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1948": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 184,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "1988": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1040,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2062": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1059,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2067": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 95,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2072": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 259,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2085": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 19748,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2099": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 351,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2353": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 687,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2370": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 127,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2427": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2596": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1171,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2638": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 86179,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2694": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 7038,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2732": {
+          "consumers": 1,
+          "groupedPath": "e3ac9727560865260f87e00f654640a7",
+          "inlined": true,
+          "byteLength": 47,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "2903": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 334,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "2928": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1908,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3011": {
+          "consumers": 1,
+          "groupedPath": "8e8e3840d8a1a8d1f5295206e2947c5c",
+          "inlined": true,
+          "byteLength": 2815,
+          "consumersList": [
+            "/u/[slug].func/index.js"
+          ]
+        },
+        "3043": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 226,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3065": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 2107,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3079": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 724,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3248": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 172,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3256": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 589,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3306": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1201,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3353": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1951,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3453": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1388,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3657": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 102,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3665": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1073,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3683": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 2716,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3689": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 564,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3828": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 588,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3857": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1349,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3893": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4655,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3918": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 135,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3938": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 205,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3975": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1870,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "3999": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 24501,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4118": {
+          "consumers": 1,
+          "groupedPath": "8e8e3840d8a1a8d1f5295206e2947c5c",
+          "inlined": true,
+          "byteLength": 5977,
+          "consumersList": [
+            "/u/[slug].func/index.js"
+          ]
+        },
+        "4155": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 5005,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4222": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 5959,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4262": {
+          "consumers": 1,
+          "groupedPath": "8e8e3840d8a1a8d1f5295206e2947c5c",
+          "inlined": true,
+          "byteLength": 321,
+          "consumersList": [
+            "/u/[slug].func/index.js"
+          ]
+        },
+        "4315": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 127,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4389": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 262,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4457": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 591,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4515": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 8009,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4591": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 915,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4592": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 899,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4626": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 469,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4643": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4647": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1138,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4667": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 3152,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4692": {
+          "consumers": 1,
+          "groupedPath": "e3ac9727560865260f87e00f654640a7",
+          "inlined": true,
+          "byteLength": 357,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "4743": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 3476,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4788": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 21007,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4862": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 464,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4865": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 126,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4878": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 172,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "4995": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 700,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5033": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4888,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5045": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 160,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5050": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5061": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 233,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5081": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 438,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5105": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 327,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5130": {
+          "consumers": 1,
+          "groupedPath": "39d0ce4c562157c0cc5fbbea6cc060dd",
+          "inlined": true,
+          "byteLength": 2988,
+          "consumersList": [
+            "/u/[slug]/[majorId].func/index.js"
+          ]
+        },
+        "5205": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 194,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5434": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 779,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5475": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 207,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5479": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4895,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5483": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 288,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5502": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 152,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5556": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 46,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5766": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 361,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5777": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 9533,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5863": {
+          "consumers": 1,
+          "groupedPath": "8e8e3840d8a1a8d1f5295206e2947c5c",
+          "inlined": true,
+          "byteLength": 49,
+          "consumersList": [
+            "/u/[slug].func/index.js"
+          ]
+        },
+        "5899": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1168,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "5924": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 98,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6030": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 129,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6107": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 13118,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6139": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 180,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6177": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 24501,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6180": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 292,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6195": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 90,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6222": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 296,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6239": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 203,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6242": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 68,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6290": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 102,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6316": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 150,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6391": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1142,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6402": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1888,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6412": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 65149,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6434": {
+          "consumers": 1,
+          "groupedPath": "e3ac9727560865260f87e00f654640a7",
+          "inlined": true,
+          "byteLength": 6175,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "6444": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 448,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6493": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 230,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6508": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 26395,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6585": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1497,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6729": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 312,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6794": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 940,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6796": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 422,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6806": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 452,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6813": {
+          "consumers": 1,
+          "groupedPath": "6931f03a4a071507bd045099c26f1d7b",
+          "inlined": true,
+          "byteLength": 6301,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6816": {
+          "consumers": 1,
+          "groupedPath": "6931f03a4a071507bd045099c26f1d7b",
+          "inlined": true,
+          "byteLength": 381,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6832": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 677,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6846": {
+          "consumers": 1,
+          "groupedPath": "39d0ce4c562157c0cc5fbbea6cc060dd",
+          "inlined": true,
+          "byteLength": 49,
+          "consumersList": [
+            "/u/[slug]/[majorId].func/index.js"
+          ]
+        },
+        "6931": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 167,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6972": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "6976": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 8009,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7018": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 3856,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7049": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 2300,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7052": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 348,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7072": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 8428,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7175": {
+          "consumers": 1,
+          "groupedPath": "6931f03a4a071507bd045099c26f1d7b",
+          "inlined": true,
+          "byteLength": 48,
+          "consumersList": [
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7258": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7674": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 397,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7684": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 297,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7703": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 309,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7786": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 502,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7826": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 253,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7829": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 187,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7830": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 10132,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7840": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1402,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7847": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 3934,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "7986": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 196,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8006": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 102,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8012": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 2253,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8019": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 184,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8229": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1044,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8254": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 136,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8332": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 255,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8393": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 149,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8589": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 139,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8639": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 118,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8656": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1230,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8658": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 15495,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8660": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 320,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8698": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 82991,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8710": {
+          "consumers": 2,
+          "newDest": "__next-on-pages-dist__/webpack/8710.js",
+          "byteLength": 308,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js"
+          ]
+        },
+        "8758": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4382,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8814": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 498,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8817": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4334,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8941": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 467,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8954": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 368,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "8965": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 293,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9020": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9076": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 224,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9118": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9328": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 159,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9378": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 442,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9479": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9498": {
+          "consumers": 1,
+          "groupedPath": "39d0ce4c562157c0cc5fbbea6cc060dd",
+          "inlined": true,
+          "byteLength": 341,
+          "consumersList": [
+            "/u/[slug]/[majorId].func/index.js"
+          ]
+        },
+        "9499": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 653,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9528": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 200,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9644": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 328,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9706": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 100,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9842": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 4999,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9860": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 252,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9894": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 1705,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        },
+        "9983": {
+          "consumers": 4,
+          "groupedPath": "75bc5ca0dffd7135b864d28b7332057d",
+          "newDest": "__next-on-pages-dist__/webpack/75bc5ca0dffd7135b864d28b7332057d.js",
+          "byteLength": 64861,
+          "consumersList": [
+            "/u/[slug].func/index.js",
+            "/u/[slug]/[majorId].func/index.js",
+            "/u/[slug]/[majorId]/[semId].func/index.js",
+            "/u/[slug]/[majorId]/[semId]/[subjectId].func/index.js"
+          ]
+        }
+      }
+    }
+  }
+}
