@@ -1,5 +1,14 @@
 # Capsule
 
+## Live Demo
+
+- **Live Frontend**: https://capsule-frontend.pages.dev
+- **Live API**: https://capsule.fahim2443.workers.dev
+
+## Screenshots
+
+*(Placeholder for screenshots)*
+
 Academic material sharing platform. MVP built for hackathon.
 
 ## Stack
