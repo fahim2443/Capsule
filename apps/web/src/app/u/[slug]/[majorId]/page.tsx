@@ -120,3 +120,4 @@ function AddSemesterButton({ majorId, onAdded }: { majorId: string; onAdded: (s:
     </form>
   );
 }
+export const runtime = 'edge';

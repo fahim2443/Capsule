@@ -83,3 +83,4 @@ export default function SubjectPage() {
     </div>
   );
 }
+export const runtime = 'edge';

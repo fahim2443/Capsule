@@ -113,3 +113,4 @@ function AddSubjectButton({ semesterId, onAdded }: { semesterId: string; onAdded
     </form>
   );
 }
+export const runtime = 'edge';

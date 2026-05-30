@@ -117,3 +117,4 @@ function AddMajorButton({ universityId, onAdded }: { universityId: string; onAdd
     </form>
   );
 }
+export const runtime = 'edge';
