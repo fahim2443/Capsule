@@ -9,3 +9,5 @@ out/
 dist/
 .wrangler/
 *.tsbuildinfo
+.vercel/
+.next/
